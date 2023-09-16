@@ -1,0 +1,16 @@
+{
+ "manifest_version": 3,
+  "name": "Template",
+  "version": "1.0.0",
+
+  "options_page": "./options/index.html",
+  "action": {
+    "default_title":"Vite App",
+    "default_popup":"./popup/index.html"
+
+  },
+  "description": "Template",
+  "permissions":["scripting"],
+  "host_permissions":["https://*/*"]
+
+}
